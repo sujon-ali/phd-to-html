@@ -1,6 +1,4 @@
-
-
-/* Globals */
+/* Global Styling */
  
 *{
     margin:0; 
@@ -79,9 +77,10 @@ h1,h2,h3,h4,h5,h6,p{
 
 
 
-/* Specifics Style */
+/* Specific Style */
 
-/* Banner */
+/* Header */
+
 header{
     position: sticky;
     top:0px;
@@ -142,6 +141,9 @@ header{
     color:rgb(255, 255, 255); 
 }
 
+
+/* Hero */
+
 .hero-background{
     background-image: url('image/hero-image-one.jpg');
     background-repeat: no-repeat;
@@ -199,6 +201,7 @@ header{
 /* Main */
 
 /* Services */
+
 .services-title{
     max-width: fit-content;
     margin: 0px auto 80px auto;
@@ -511,7 +514,9 @@ header{
 
 
 
-/* Media Querry */
+/* Media Querries */
+
+/* Labptop */
 
 @media screen and (max-width:1024px){
 
@@ -541,7 +546,10 @@ header{
 }
 
 
+/* Mobile Menu Fix */
+
 @media screen and (max-width:820px){
+ 
     .header-layout{
         height:70px;
     }
@@ -635,6 +643,8 @@ header{
 }
 
 
+/* Desktop */
+
 @media screen and (max-width:768px){
     
     .services-feature-container{
@@ -678,6 +688,8 @@ header{
 }
 
 
+/* Mobile Large */
+
 @media screen and (max-width:425px){
 
     .hero-text-title h1{
@@ -702,6 +714,8 @@ header{
 }
 
 
+/* Mobile Medium */
+
 @media screen and (max-width:375px){
 
     .footer-nav .nav-bar{
@@ -711,6 +725,8 @@ header{
     }
 }
 
+
+/* Mobile Small */
 
 @media screen and (max-width:320px){
 
@@ -729,3 +745,5 @@ header{
         margin-left: 0px;
     }    
 }
+
+/* End Of Style */
