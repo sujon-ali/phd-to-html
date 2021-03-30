@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,592 +8,563 @@
       name="description"
       content="This is a really good page. You shall have a lot of products here."
     />
-    <link rel="stylesheet" href="./css/style.css" />
-
-    <!-- fonts cdn -->
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
     />
 
-    <!-- font-awsome-cdn -->
+    <!-- font-awsome-local -->
+    <!-- <link rel="stylesheet" href="css/all.min.css"> -->
+
+    <!-- font-awsome-online -->
     <script
       src="https://kit.fontawesome.com/ab1fab34da.js"
       crossorigin="anonymous"
     ></script>
-
-    <title>Agencio</title>
+    <title>Neat & Chic</title>
   </head>
   <body>
     <header>
       <div class="header-container">
         <div class="header-layout">
-          <div class="header-left">
-            <nav class="nav-container">
-              <h1 class="visually-hidden">Desktop Navigation Menu</h1>
-              <img
-                src="./images/brand-image.png"
-                alt="brand image"
-                title="Neat & Chic"
-              />
-              <div class="menu-icon-container">
-                <i class="fas fa-bars"></i>
+          <div class="brand-image-container">
+            <img
+              src="image/brand-image.png"
+              alt="brand image"
+              title="Neat & Chic"
+            />
+          </div>
+          <div class="header-nav-container">
+            <nav class="desktop-nav header-nav">
+              <div class="header-nav-bar-heading">
+                <h1>Desktop Navigation Menu</h1>
               </div>
               <ul class="nav-bar">
-                <li><a class="current-link" href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#our-work">Work</a></li>
-                <li><a href="#case-studies">Case Studies</a></li>
-                <li><a href="#blogs">Blogs</a></li>
-                <li class="hide-on-mobile"><a href="#contacts">Contacts</a></li>
+                <li><a class="current-link" href="#">HOME</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#products">PRODUCTS</a></li>
+                <li><a href="#clients">CLIENTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
               </ul>
             </nav>
           </div>
-
-          <div class="header-right">
-            <nav class="call-to-action">
-              <a href="#contacts">Contact Us</a>
-            </nav>
-            <div class="search">
-              <form action="action.php">
-                <input class="input-hide" type="search" />
-                <i class="fas fa-search"></i>
-              </form>
+          <div class="mobile-menu-container">
+            <div class="hamburger-icon">
+              <i class="fas fa-bars"></i>
             </div>
+            <nav class="mobile-nav">
+              <div class="header-nav-bar-heading">
+                <h1>Mobile Navigation Menu</h1>
+              </div>
+              <ul class="mobile-nav-bar">
+                <li><a class="current-link" href="#">HOME</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#products">PRODUCTS</a></li>
+                <li><a href="#clients">CLIENTS</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+              </ul>
+            </nav>
           </div>
-          <!-- .header-right -->
         </div>
       </div>
     </header>
-    <section id="about" class="hero-background">
+    <section class="hero-background">
       <div class="hero-section-layout">
-        <div class="hero-text-box">
+        <div class="hero-text">
           <div class="hero-text-title">
-            <span class="underline"></span>
-            <h1 class="title">
-              Business solution for ambitious, fast growing brands.
-            </h1>
+            <h1>Welcome</h1>
+            <br />
+            <h1>to the online demo of website template</h1>
           </div>
           <div class="hero-text-content">
+            <p>nesciunt amet, asperiores facere similique.</p>
+            <br />
             <p>
-              Lorem Ipsum is simply dummy text of the printing typesetting
-              industry has been the industry's standard dummy text ever since
-              then when an unknown printer took a gallery.
+              magnam numquam quam aspernatur nobis debitis maiores accusantium
+              sunt illum sequi ad voluptas nesciunt amet.
             </p>
           </div>
           <div class="hero-button">
-            <a href="#">Start A Project<i class="fas fa-arrow-right"></i></a>
+            <a href="#">Learn More</a>
           </div>
         </div>
       </div>
     </section>
     <main>
-      <div class="main-layout">
-        <section id="services">
-          <div class="section-layout">
-            <div class="services-icon-section">
-              <div class="trusted-partner">
-                <i class="fab fa-amazon-pay"></i>
-                <p>Amazon Pay</p>
+      <section id="services">
+        <div class="section-layout">
+          <div class="services-title">
+            <div class="services-title-fix">
+              <h1>Services</h1>
+              <span class="underline"></span>
+            </div>
+          </div>
+          <div class="services-features">
+            <div class="services-feature-container">
+              <section class="service-feature">
+                <div class="service-feature-icon">
+                  <div class="icon">
+                    <i class="fas fa-check-circle"></i>
+                  </div>
+                </div>
+                <div class="service-feature-content">
+                  <div class="service-feature-title">
+                    <h2>Consectetur Adipisicing</h2>
+                    <span class="underline"></span>
+                  </div>
+                  <div class="service-feature-desc">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Facere, atque.
+                    </p>
+                  </div>
+                  <div class="read-more link">
+                    <a href="#">
+                      Read More
+                      <i class="fas fa-angle-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </section>
+              <section class="service-feature">
+                <div class="service-feature-icon">
+                  <div class="icon">
+                    <i class="fas fa-check-circle"></i>
+                  </div>
+                </div>
+                <div class="service-feature-content">
+                  <div class="service-feature-title">
+                    <h2>Consectetur Adipisicing</h2>
+                    <span class="underline"></span>
+                  </div>
+                  <div class="service-feature-desc">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Facere, atque.
+                    </p>
+                  </div>
+                  <div class="read-more link">
+                    <a href="#">
+                      Read More
+                      <i class="fas fa-angle-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </section>
+              <section class="service-feature">
+                <div class="service-feature-icon">
+                  <div class="icon">
+                    <i class="fas fa-check-circle"></i>
+                  </div>
+                </div>
+                <div class="service-feature-content">
+                  <div class="service-feature-title">
+                    <h2>Consectetur Adipisicing</h2>
+                    <span class="underline"></span>
+                  </div>
+                  <div class="service-feature-desc">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Facere, atque.
+                    </p>
+                  </div>
+                  <div class="read-more link">
+                    <a href="#">
+                      Read More
+                      <i class="fas fa-angle-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <!-- .section-layout -->
+      </section>
+      <!-- #services -->
+
+      <div class="divider"></div>
+
+      <section id="products">
+        <div class="section-layout">
+          <div class="products-title">
+            <h1>Products</h1>
+            <span class="underline"></span>
+          </div>
+          <div class="products-container">
+            <div class="product product-one">
+              <div class="product-image">
+                <img src="image/product-one.jpg" alt="product" />
               </div>
-              <div class="trusted-partner">
-                <i class="fab fa-airbnb"></i>
-                <p>AirBnB</p>
+              <div class="product-desc">
+                <p>
+                  Consectetur dipisicing amet accusantium sit amet recognize.
+                </p>
               </div>
-              <div class="trusted-partner">
-                <i class="fab fa-google-plus-g"></i>
-                <p>Google Plus</p>
-              </div>
-              <div class="trusted-partner">
-                <i class="fab fa-hips"></i>
-                <p>Hips</p>
-              </div>
-              <div class="trusted-partner">
-                <i class="fab fa-supple"></i>
-                <p>Supple</p>
-              </div>
-              <div class="trusted-partner">
-                <i class="fab fa-hooli"></i>
-                <p>Hooli</p>
+              <div class="link">
+                <a href="#">
+                  Read More
+                  <i class="fas fa-angle-right"></i>
+                </a>
               </div>
             </div>
-            <div class="services-showcase">
-              <div class="services-showcase-image-container">
-                <img src="image/services-image.jpg" alt="service demo" />
+            <div class="product product-two">
+              <div class="product-image">
+                <img src="image/product-two.jpg" alt="product" />
               </div>
-              <div class="services-showcase-desc">
-                <div class="services-showcase-desc-title">
-                  <p><span class="sub-head-underline"></span>OUR SERVICES</p>
-                  <h1>Services we can help you with.</h1>
-                </div>
-                <div class="services-showcase-desc-contents">
-                  <ul class="section">
-                    <li class="content">
-                      <h2 class="content-title">Illustration & Iconography</h2>
-                      <div class="content-desc">
-                        <p>
-                          It has survived not only live centuries but also the
-                          leap into electronic typesetting, remaining
-                          essentially unchanged.
-                        </p>
-                      </div>
-                    </li>
-                    <li class="content">
-                      <h2 class="content-title">Motion Design & Animation</h2>
-                      <div class="content-desc">
-                        <p>
-                          It has survived not only live centuries but also the
-                          leap into electronic typesetting, remaining
-                          essentially unchanged.
-                        </p>
-                      </div>
-                    </li>
-                    <li class="content">
-                      <h2 class="content-title">Mobile App Development</h2>
-                      <div class="content-desc">
-                        <p>
-                          It has survived not only live centuries but also the
-                          leap into electronic typesetting, remaining
-                          essentially unchanged.
-                        </p>
-                      </div>
-                    </li>
-                    <li class="content">
-                      <h2 class="content-title">UI / UX Design</h2>
-                      <div class="content-desc">
-                        <p>
-                          It has survived not only live centuries but also the
-                          leap into electronic typesetting, remaining
-                          essentially unchanged.
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
+              <div class="product-desc">
+                <p>
+                  Ipsum a aliquam sunt ipsa dolorem officiis amet accusantium
+                  commodi et.
+                </p>
+              </div>
+              <div class="link">
+                <a href="#">
+                  Read More
+                  <i class="fas fa-angle-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="product product-three">
+              <div class="product-image">
+                <img src="image/product-three.jpg" alt="product" />
+              </div>
+              <div class="product-desc">
+                <p>
+                  Ipsum dolor sit amet consectetur adipisicing amet
+                  accusantiumelit.
+                </p>
+              </div>
+              <div class="link">
+                <a href="#">
+                  Read More
+                  <i class="fas fa-angle-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="product product-four">
+              <div class="product-image">
+                <img src="image/product-four.jpg" alt="product" />
+              </div>
+              <div class="product-desc">
+                <p>
+                  Ipsum dolor sit amet consectetur adipisicing amet
+                  accusantiumelit.
+                </p>
+              </div>
+              <div class="link">
+                <a href="#">
+                  Read More
+                  <i class="fas fa-angle-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="product product-five">
+              <div class="product-image">
+                <img src="image/product-five.jpg" alt="product" />
+              </div>
+              <div class="product-desc">
+                <p>
+                  Ipsum dolor sit amet consectetur adipisicing amet
+                  accusantiumelit.
+                </p>
+              </div>
+              <div class="link">
+                <a href="#">
+                  Read More
+                  <i class="fas fa-angle-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .section-layout -->
+      </section>
+      <!-- #products -->
 
-                  <ul class="section">
-                    <li class="content">
-                      <h2 class="content-title">Research & Discovery</h2>
-                      <div class="content-desc">
-                        <p>
-                          It has survived not only live centuries but also the
-                          leap into electronic typesetting, remaining
-                          essentially unchanged.
-                        </p>
-                      </div>
-                    </li>
-                    <li class="content">
-                      <h2 class="content-title">Prototyping & Interaction</h2>
-                      <div class="content-desc">
-                        <p>
-                          It has survived not only live centuries but also the
-                          leap into electronic typesetting, remaining
-                          essentially unchanged.
-                        </p>
-                      </div>
-                    </li>
-                    <li class="content">
-                      <h2 class="content-title">Competitive Analysis</h2>
-                      <div class="content-desc">
-                        <p>
-                          It has survived not only live centuries but also the
-                          leap into electronic typesetting, remaining
-                          essentially unchanged.
-                        </p>
-                      </div>
-                    </li>
-                    <li class="content">
-                      <h2 class="content-title">Fron-End Development</h2>
-                      <div class="content-desc">
-                        <p>
-                          It has survived not only live centuries but also the
-                          leap into electronic typesetting, remaining
-                          essentially unchanged.
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
+      <div class="divider"></div>
+
+      <section id="clients">
+        <div class="clients-section-heading">
+          <h1>Clients</h1>
+          <span class="underline"></span>
+        </div>
+        <div class="section-layout">
+          <section class="thumb-clients">
+            <div class="title">
+              <h2>All Clients</h2>
+              <span class="underline"></span>
+            </div>
+            <div class="thumb-clients-container">
+              <div class="clients-container-left">
+                <div class="thumb-client client-one">
+                  <div class="client-image">
+                    <img src="image/client-one.jpg" alt="client" />
+                  </div>
+                  <div class="client-brief">
+                    <div class="client-brief-desc">
+                      <p>
+                        Consectetur dipisicing amet accusantium sit amet
+                        recognize.
+                      </p>
+                      <p class="client-name">Mr. Accusantium Sit</p>
+                    </div>
+                    <div class="link">
+                      <a href="#">
+                        Read More
+                        <i class="fas fa-angle-right"></i>
+                      </a>
+                    </div>
+                  </div>
                 </div>
-                <div class="services-showcase-button">
+                <div class="thumb-client client-two">
+                  <div class="client-image">
+                    <img src="image/client-two.jpg" alt="client" />
+                  </div>
+                  <div class="client-brief">
+                    <div class="client-brief-desc">
+                      <p>
+                        Consectetur dipisicing amet accusantium sit amet
+                        recognize.
+                      </p>
+                      <p class="client-name">Mr. Accusantium Sit</p>
+                    </div>
+                    <div class="link">
+                      <a href="#">
+                        Read More
+                        <i class="fas fa-angle-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="thumb-client client-three">
+                  <div class="client-image">
+                    <img src="image/client-three.jpg" alt="client" />
+                  </div>
+                  <div class="client-brief">
+                    <div class="client-brief-desc">
+                      <p>
+                        Consectetur dipisicing amet accusantium sit amet
+                        recognize.
+                      </p>
+                      <p class="client-name">Mr. Accusantium Sit</p>
+                    </div>
+                    <div class="link">
+                      <a href="#">
+                        Read More
+                        <i class="fas fa-angle-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- .clients-container-left -->
+
+              <div class="clients-container-right">
+                <div class="thumb-client client-four">
+                  <div class="client-image">
+                    <img src="image/client-four.jpg" alt="client" />
+                  </div>
+                  <div class="client-brief">
+                    <div class="client-brief-desc">
+                      <p>
+                        Consectetur dipisicing amet accusantium sit amet
+                        recognize.
+                      </p>
+                      <p class="client-name">Mr. Accusantium Sit</p>
+                    </div>
+                    <div class="link">
+                      <a href="#">
+                        Read More
+                        <i class="fas fa-angle-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="thumb-client client-five">
+                  <div class="client-image">
+                    <img src="image/client-five.jpg" alt="client" />
+                  </div>
+                  <div class="client-brief">
+                    <div class="client-brief-desc">
+                      <p>
+                        Consectetur dipisicing amet accusantium sit amet
+                        recognize.
+                      </p>
+                      <p class="client-name">Mr. Accusantium Sit</p>
+                    </div>
+                    <div class="link">
+                      <a href="#">
+                        Read More
+                        <i class="fas fa-angle-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="thumb-client client-six">
+                  <div class="client-image">
+                    <img src="image/client-six.jpg" alt="client" />
+                  </div>
+                  <div class="client-brief">
+                    <div class="client-brief-desc">
+                      <p>
+                        Consectetur dipisicing amet accusantium sit amet
+                        recognize.
+                      </p>
+                      <p class="client-name">M. Accusantium Sit</p>
+                    </div>
+                    <div class="link">
+                      <a href="#">
+                        Read More
+                        <i class="fas fa-angle-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- .clients-container-right -->
+            </div>
+            <!-- .thumb-clients-container -->
+          </section>
+          <!-- .thumb-clients -->
+
+          <section class="featured-client">
+            <div class="title">
+              <h2>Featured Client</h2>
+              <span class="underline"></span>
+            </div>
+            <div class="featured-client-container">
+              <div class="client-image">
+                <img src="image/featured-client.jpg" alt="client" />
+              </div>
+              <div class="client-brief">
+                <div class="client-brief-desc">
                   <p>
-                    Challenges are just opportunities in disguise.
-                    <a href="#">Take the challenge.</a>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Porro sed veritatis esse rerum culpa consequatur quaerat
+                    fugiat omnis ad magnam! Consectetur dipisicing amet
+                    accusantium sit amet recognize.
                   </p>
-                  <img
-                    class="right-arrow-icon"
-                    src="icons/arrow-right.svg"
-                    alt="right arrow"
-                  />
+                  <p class="client-name">Mr. Accusantium Sit</p>
+                </div>
+                <div class="link">
+                  <a href="#">
+                    Read More
+                    <i class="fas fa-angle-right"></i>
+                  </a>
                 </div>
               </div>
             </div>
-          </div>
-          <!-- .section-layout -->
-        </section>
-        <!-- #services -->
-
-        <section id="our-work">
-          <div class="section-layout">
-            <div class="our-work-desc">
-              <div class="our-work-desc-title">
-                <p><span class="sub-head-underline"></span>OUR WORK</p>
-                <h1>See our recent work.</h1>
-              </div>
-              <div class="our-work-desc-content">
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing typesetting
-                  industry has been the industry's standard dummy text ever
-                  since then when an unknown printer took a gallery.
-                </p>
-              </div>
-              <div class="our-work-button">
-                <a href="#">See all Projects</a>
-                <img
-                  class="right-arrow-icon"
-                  src="icons/arrow-right.svg"
-                  alt="right arrow"
-                />
-              </div>
-            </div>
-            <div class="our-work-image-gallery">
-              <img src="image/our-work-image.jpg" alt="service demo" />
-              <img src="image/our-work-image.jpg" alt="service demo" />
-              <img src="image/our-work-image.jpg" alt="service demo" />
-            </div>
-          </div>
-          <!-- .section-layout -->
-        </section>
-        <!-- #our-work -->
-
-        <section id="case-studies">
-          <div class="section-layout">
-            <div class="case-studies-video">
-              <video src="https://www.youtube.com/watch/.."></video>
-              <p class="case-studies-video-author-desc">
-                Lorem Ipsum is simply dummy text of the printing typesetting
-                industry has been the industry's standard dummy text ever since
-                then when an unknown printer took a gallery.
-              </p>
-              <p class="case-studies-video-author-name">Danielle Fugazzi</p>
-              <p class="case-studies-video-author-desig">UI Designer at UHUB</p>
-              <p class="spaned-dotts">
-                <span></span><span></span><span></span><span></span
-                ><span></span>
-              </p>
-            </div>
-            <div class="case-studies-desc">
-              <div class="case-studies-desc-title">
-                <p><span class="sub-head-underline"></span>All SERVICES</p>
-                <h1>Making products meaningful</h1>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing typesetting
-                  industry has been the industry's standard dummy text ever
-                  since then when an unknown printer took a gallery.
-                </p>
-              </div>
-              <div class="case-studies-desc-contents">
-                <div class="case-studies-desc-items-left">
-                  <div class="case-studies-desc-content">
-                    <i class="fas fa-"></i>
-                    <h2 class="case-studies-desc-content-title">
-                      Product Design
-                    </h2>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing
-                      typesetting industry has been the industry's standard
-                      dummy text ever since then when an unknown printer took a
-                      gallery.
-                    </p>
-                  </div>
-                  <div class="case-studies-desc-content">
-                    <i class="fas fa-"></i>
-                    <h2 class="case-studies-desc-content-title">
-                      Custom Development
-                    </h2>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing
-                      typesetting industry has been the industry's standard
-                      dummy text ever since then when an unknown printer took a
-                      gallery.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="case-studies-desc-items-right">
-                  <div class="case-studies-desc-content">
-                    <i class="fas fa-"></i>
-                    <h2 class="case-studies-desc-content-title">
-                      Branding & Marketing
-                    </h2>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing
-                      typesetting industry has been the industry's standard
-                      dummy text ever since then when an unknown printer took a
-                      gallery.
-                    </p>
-                  </div>
-                  <div class="case-studies-desc-content">
-                    <i class="fas fa-"></i>
-                    <h2 class="case-studies-desc-content-title">
-                      Rapid Prototyping
-                    </h2>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing
-                      typesetting industry has been the industry's standard
-                      dummy text ever since then when an unknown printer took a
-                      gallery.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- .section-layout -->
-        </section>
-        <!-- #case-studies -->
-
-        <section id="blogs">
-          <div class="section-layout">
-            <div class="blogs-section-title">
-              <p><span class="sub-head-underline"></span>RECENTLY PUBLISHED</p>
-              <h1>Interesting articles updated daily</h1>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing typesetting
-                industry has been the industry's standard dummy text ever since
-                then when an unknown printer took a gallery.
-              </p>
-            </div>
-
-            <div class="blogs-desc">
-              <div class="blogs-desc-contents">
-                <div class="blogs-desc-featured-blog">
-                  <p class="blog-date">
-                    <span class="sub-head-underline"></span>21 May 2019 | Human
-                  </p>
-                  <h2 class="blog-title">
-                    How Wireless Technology is Changing Business.
-                  </h2>
-                  <img src="image/featured-blog-image.jpg" alt="image" />
-                  <p class="blog-content">
-                    Contrary to popular belief, Lorem Ipsum is not simply random
-                    text. It has roots in a piece of classical Latin literature
-                    from 45 BC, making it over 2000 years old. Richard
-                    McClintock, a Latin professor at Hampden-Sydney College in
-                    Virginia, looked up one of the more obscure Latin words,
-                    consectetur, from a Lorem Ipsum passage, and going through
-                    the cites of the word in classical literature, discovered
-                    the undoubtable source.
-                  </p>
-                  <div class="blog-read-more-link">
-                    <a href="#">Read Article</a>
-                    <img
-                      class="right-arrow-icon"
-                      src="icons/arrow-right.svg"
-                      alt="right arrow"
-                    />
-                  </div>
-                </div>
-
-                <div class="blogs-desc-thumb-blogs">
-                  <div class="blogs-desc-thumb-blog">
-                    <div class="blogs-desc-thumb-blog-date-and-title">
-                      <p class="blog-date">
-                        <span class="sub-head-underline"></span>21 May 2019 |
-                        Human
-                      </p>
-                      <h2 class="blog-title">
-                        5 Ways Technology Has Improved Business Today.
-                      </h2>
-                    </div>
-                    <div class="blogs-desc-thumb-blog-image-and-content">
-                      <div class="blogs-desc-thumb-blog-image">
-                        <img src="image/thumb-blog-image.jpg" alt="image" />
-                      </div>
-                      <div class="blogs-desc-thumb-blog-content">
-                        <p class="blog-content">
-                          Richard McClintock, a Latin professor at
-                          Hampden-Sydney College in Virginia, looked up one of
-                          the more obscure Latin words, consectetur, from a
-                          Lorem Ipsum passage, and going through the cites of
-                          the word in classical literature.
-                        </p>
-                        <div class="blog-read-more-button">
-                          <a href="#">Read Article</a>
-                          <img
-                            class="right-arrow-icon"
-                            src="icons/arrow-right.svg"
-                            alt="right arrow"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="blogs-desc-thumb-blog">
-                    <div class="blogs-desc-thumb-blog-date-and-title">
-                      <p class="blog-date">
-                        <span class="sub-head-underline"></span>21 May 2019 |
-                        Human
-                      </p>
-                      <h2 class="blog-title">
-                        Why Do People Praise About An Agency?
-                      </h2>
-                    </div>
-                    <div class="blogs-desc-thumb-blog-image-and-content">
-                      <div class="blogs-desc-thumb-blog-image">
-                        <img src="image/thumb-blog-image.jpg" alt="image" />
-                      </div>
-                      <div class="blogs-desc-thumb-blog-content">
-                        <p class="blog-content">
-                          Richard McClintock, a Latin professor at
-                          Hampden-Sydney College in Virginia, looked up one of
-                          the more obscure Latin words, consectetur, from a
-                          Lorem Ipsum passage, and going through the cites of
-                          the word in classical literature.
-                        </p>
-                        <div class="blog-read-more-button">
-                          <a href="#">Read Article</a>
-                          <img
-                            class="right-arrow-icon"
-                            src="icons/arrow-right.svg"
-                            alt="right arrow"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="more-on-the-blog-button">
-                    <a href="#">More on the blog</a>
-                    <img
-                      class="right-arrow-icon"
-                      src="icons/arrow-right.svg"
-                      alt="right arrow"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- .section-layout -->
-        </section>
-        <!-- #blogs -->
-
-        <section id="contacts">
-          <div class="section-layout">
-            <div class="contact-section-title">
-              <p><span class="sub-head-underline"></span>REACH OUT NOW!</p>
-              <h1>
-                We’re available for 8 hours a day! Contact to require a detailed
-                analysis and assessment of your plan.
-              </h1>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing typesetting
-                industry has been the industry's standard dummy text ever since
-                then when an unknown printer took a gallery.
-              </p>
-            </div>
-
-            <div class="contact-desc">
-              <i class="fas fa-phone"></i>
-              <p class="contact-desc-number"></p>
-              <div class="contact-us-button">
-                <a href="#">Contact us</a>
-                <img
-                  class="right-arrow-icon"
-                  src="icons/arrow-right.svg"
-                  alt="right arrow"
-                />
-              </div>
-            </div>
-          </div>
-          <!-- .section-layout -->
-        </section>
-        <!-- #contacts -->
-      </div>
+          </section>
+        </div>
+        <!-- .section-layout -->
+      </section>
+      <!-- #clients -->
     </main>
-
     <footer>
       <section class="footer-widget">
         <div class="footer-section-heading">
           <h1>Footer Widget</h1>
         </div>
         <div class="footer-widget-layout">
-          <section class="footer-widget-section">
-            <div class="footer-brand-image">
-              <img src="image/brand-image.jpg" alt="agencio logo" />
+          <section class="footer-widget-section footer-widget-section-one">
+            <div class="title">
+              <h2>Soluta Illum Ratione.</h2>
+              <span class="underline"></span>
             </div>
-            <div class="footer-desc-para">
-              <p>
-                Lorem Ipsum is simply dummy text of the printing typesetting
-                industry has been the industry's standard dummy text ever since
-                then when an unknown printer took a gallery.
-              </p>
-            </div>
-            <div class="offices">
-              <div class="head-office">
-                <div class="office-title">
-                  <h2><span class="sub-head-underline"></span>HEAD OFFICE</h2>
-                </div>
-                <div class="content">
-                  <p>Onepager. Inc.</p>
-                  <p>3133 Connecticut Ave NW, #923</p>
-                  <p>Washington DC, 20008, USA</p>
-                </div>
-              </div>
-              <div class="studio-office">
-                <div class="office-title">
-                  <h2><span class="sub-head-underline"></span>STUDIO OFFICE</h2>
-                </div>
-                <div class="content">
-                  <p>Mainstreet 1234</p>
-                  <p>1236 Anytown, Germany (DE)</p>
-                </div>
+            <div class="content">
+              <div class="footer-widget-list-container">
+                <ul>
+                  <li><p>Amet Consectetur</p></li>
+                  <li><p>Lorem Ipsum</p></li>
+                  <li><p>Dolor Sit</p></li>
+                  <li><p>Quisdam Pentium</p></li>
+                  <li><p>Amet Consectetur</p></li>
+                  <li><p>Adipisicing Elit</p></li>
+                </ul>
               </div>
             </div>
           </section>
-          <section class="footer-widget-section">
+          <section class="footer-widget-section footer-widget-section-two">
             <div class="title">
-              <h2>Resources</h2>
+              <h2>Ratione Soluta Illum.</h2>
+              <span class="underline"></span>
             </div>
             <div class="content">
-              <ul>
-                <li>Documentation</li>
-                <li>Developer Metrics</li>
-                <li>Enterprise</li>
-                <li>Pricing</li>
-              </ul>
+              <div class="footer-widget-image-container">
+                <img src="image/footer-widget-image-one.jpg" alt="image" />
+                <img src="image/footer-widget-image-two.jpg" alt="image" />
+                <img src="image/footer-widget-image-three.jpg" alt="image" />
+                <img src="image/footer-widget-image-four.jpg" alt="image" />
+                <img src="image/footer-widget-image-five.jpg" alt="image" />
+                <img src="image/footer-widget-image-six.jpg" alt="image" />
+                <img src="image/footer-widget-image-seven.jpg" alt="image" />
+                <img src="image/footer-widget-image-eight.jpg" alt="image" />
+                <img src="image/footer-widget-image-nine.jpg" alt="image" />
+              </div>
             </div>
           </section>
-          <section class="footer-widget-section">
+          <section class="footer-widget-section footer-widget-section-three">
             <div class="title">
-              <h2>Company</h2>
+              <h2>Illum Soluta Ratione.</h2>
+              <span class="underline"></span>
             </div>
-            <div class="content">
-              <ul>
-                <li>About</li>
-                <li>Customer</li>
-                <li>Contact us</li>
-                <li>Support</li>
-                <li>Terms</li>
-              </ul>
+            <div class="footer-widget-para-container">
+              <div class="text">
+                <p>
+                  <strong>Lorem</strong> Laboriosam voluptatum sed corporis
+                  accusantium cupiditate non quasi laborum animi.
+                </p>
+              </div>
+              <div class="text">
+                <p>
+                  <strong>Lorem</strong> Laboriosam voluptatum enim doloribus
+                  sed corporis accusantium cupiditate non.
+                </p>
+              </div>
+              <div class="text">
+                <p>
+                  <strong>Lorem</strong> Laboriosam voluptatum enim doloribus
+                  sed corporis accusantium cupiditate.
+                </p>
+              </div>
             </div>
           </section>
-          <section class="footer-widget-section">
+          <section class="footer-widget-section footer-widget-section-four">
             <div class="title">
-              <h2>Social</h2>
+              <h2>Soluta illum ratione.</h2>
+              <span class="underline"></span>
             </div>
             <div class="content">
-              <ul>
-                <li>Facebook</li>
-                <li>Instagram</li>
-                <li>Google Plus</li>
-                <li>Twitter</li>
-              </ul>
+              <div class="text">
+                <p>
+                  Laboriosam voluptatum enim doloribus sed corporis accusantium
+                  cupiditate non quasi laborum animi.
+                </p>
+              </div>
+              <div class="text">
+                <p>Enim doloribus sed corporis quasi laborum animi.</p>
+              </div>
+              <div class="text">
+                <p>Enim doloribus sed corporis quasi laborum animi.</p>
+              </div>
+              <div class="footer-social-icons">
+                <span class="social-icon"
+                  ><i class="fab fa-facebook"><a href="#"></a></i
+                ></span>
+                <span class="social-icon"
+                  ><i class="fab fa-twitter"><a href="#"></a></i
+                ></span>
+                <span class="social-icon"
+                  ><i class="fab fa-instagram"><a href="#"></a></i
+                ></span>
+                <span class="social-icon"
+                  ><i class="fab fa-linkedin"><a href="#"></a></i
+                ></span>
+              </div>
             </div>
           </section>
         </div>
@@ -602,44 +573,44 @@
       <!-- footer-widget -->
 
       <section class="footer-bar">
-        <div class="footer-bar-layout">
-          <div class="footer-bar-heading">
-            <h1>Footer Bar</h1>
-          </div>
-          <div class="footer-bar-layout">
-            <section class="copyright">
-              <div class="footer-bar-copyright-heading">
-                <h2>Copyright Info</h2>
-              </div>
-              <div class="footer-bar-copyright-content">
-                <p>&copy;2021 Onepage</p>
-              </div>
-            </section>
-            <section class="footer-nav-container">
-              <div class="footer-nav-section-heading">
-                <h2>Footer Bar Navigation</h2>
-              </div>
-              <nav class="footer-nav">
-                <div class="footer-nav-bar-heading">
-                  <h3>Footer Navigation Menu</h3>
-                </div>
-                <ul class="nav-bar">
-                  <li>
-                    <a href="#terms-and-condition">Terms and Conditions</a>
-                  </li>
-                  <li><a href="#privacy-policy">Privacy Policy</a></li>
-                  <li><a href="#our-designs">Design made by ThemeXpert</a></li>
-                </ul>
-              </nav>
-            </section>
-          </div>
+        <div class="footer-bar-heading">
+          <h1>Footer Bar</h1>
         </div>
-        <!-- .footer-bar-layout -->
+        <div class="footer-bar-layout">
+          <section class="copyright">
+            <div class="footer-bar-copyright-heading">
+              <h2>Copyright Info</h2>
+            </div>
+            <div class="footer-bar-copyright-content">
+              <p>
+                Copyright&copy;2021 neat&chic | Right to copy is reserverd by
+                neat&chic.
+              </p>
+            </div>
+          </section>
+          <section class="footer-nav-container">
+            <div class="footer-nav-section-heading">
+              <h2>Footer Bar Navigation</h2>
+            </div>
+            <nav class="footer-nav">
+              <div class="footer-nav-bar-heading">
+                <h3>Footer Navigation Menu</h3>
+              </div>
+              <ul class="nav-bar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#products">PRODUCTS</a></li>
+                <li><a href="#clients">CLIENTS</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+              </ul>
+            </nav>
+          </section>
+        </div>
       </section>
-      <!-- footer-bar -->
     </footer>
 
-    <script src="my-jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
     <script src="main.js"></script>
   </body>
 </html>
