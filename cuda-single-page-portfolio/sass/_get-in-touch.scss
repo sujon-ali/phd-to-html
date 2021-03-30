@@ -1,0 +1,118 @@
+#get-in-touch {
+  background-color: #3c5499;
+  padding: 125px 0;
+  color: white;
+
+  .layout-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+      .underline {
+        background-color: #273a71;
+      }
+    }
+
+    .desc-container {
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 800px;
+
+        .name-and-email {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 15px;
+        }
+        .name-and-email > input {
+          width: 49%;
+          padding: 15px 25px;
+          border-radius: 5px;
+        }
+        textarea,
+        .name-and-email > input {
+          padding: 15px 25px;
+          border-radius: 5px;
+          background-color: #273a71;
+          color: white;
+          font-size: 16px;
+        }
+        textarea::placeholder,
+        .name-and-email > input::placeholder {
+          color: white;
+        }
+        .name-and-email,
+        textarea {
+          width: 100%;
+          max-width: 8;
+        }
+        textarea {
+          margin-bottom: 60px;
+          height: 200px;
+          resize: none;
+        }
+        button {
+          background-color: #30bae7;
+        }
+        button:hover {
+          background-color: darken($color: #30bae7, $amount: 10);
+        }
+      }
+    }
+  }
+}
+
+//=======( Media_Queries )=======//
+
+// Tablet
+@media screen and (max-width: 991px) {
+  main {
+    #get-in-touch {
+      padding: 80px 0;
+
+      .layout-container {
+        .desc-container {
+          form {
+            width: 92vw;
+
+            .name-and-email {
+              flex-wrap: wrap;
+            }
+            .name-and-email > input,
+            textarea,
+            button {
+              width: 100%;
+            }
+            input[type='text'] {
+              margin-bottom: 15px;
+            }
+            .btn {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Mobiles__small
+@media screen and (max-width: 575px) {
+  main {
+    #get-in-touch {
+      padding: 60px 0;
+
+      .layout-container {
+        .desc-container {
+          form {
+            textarea {
+              margin-bottom: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,122 @@
+//=======( Importing_The_Sections )=======//
+
+@import 'header';
+@import 'welcome';
+@import 'services';
+@import 'team';
+@import 'skills';
+@import 'portfolio';
+@import 'testimonial';
+@import 'get-in-touch';
+@import 'footer';
+
+//=======( Global_Styles )=======//
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+*,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+textarea,
+input,
+button {
+  outline: none;
+  border: 0px;
+}
+
+textarea:focus,
+input:focus,
+button:focus {
+  outline: auto;
+  border: 0px;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 52px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn {
+  width: 300px;
+  padding: 15px 20px;
+  background-color: black;
+  font-size: 20px;
+  display: block;
+  color: white;
+  border-radius: 5px;
+  transition: all 0.25s;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 75px;
+  padding: 0 200px;
+
+  p {
+    font-size: 24px;
+  }
+}
+
+.underline {
+  width: 100px;
+  height: 3px;
+  background-color: black;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.layout-container {
+  max-width: 1140px;
+  margin: auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+//=======( Global_Media_Queries )=======//
+
+// Tablet
+@media screen and (max-width: 991px) {
+  .title {
+    margin-bottom: 75px;
+    padding: 0 20px;
+
+    h1 {
+      font-size: 38px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+}
